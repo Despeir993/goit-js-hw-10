@@ -18,28 +18,46 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
-li img {
-  max-width: 50px;
-  height: auto;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
 
-img{
-  max-width: 50px;
-  height: auto;
-  margin-right: 10px;
-}
-
-li {
-  list-style: none;
-
+.country-info {
   display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
-span {
+.country-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-ul {
-  display: inline;
+.country-title {
+  margin: 0;
+  font-size: 40px;
+}
+
+.country-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.country-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 5px;
+}
+
+.country-property {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.country-property-value {
+  font-size: 20px;
 }
